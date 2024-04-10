@@ -1,0 +1,711 @@
+*********** Refreshing package db ***********
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+*********** Installing git ***********
+warning: git-2.44.0-1 is up to date -- skipping
+ there is nothing to do
+*********** Installing needed official packages ***********
+warning: sudo-1.9.15.p5-1 is up to date -- skipping
+warning: iwd-2.17-2 is up to date -- skipping
+warning: bluez-5.73-4 is up to date -- skipping
+warning: pipewire-1:1.0.4-4 is up to date -- skipping
+warning: pipewire-alsa-1:1.0.4-4 is up to date -- skipping
+warning: pipewire-pulse-1:1.0.4-4 is up to date -- skipping
+warning: wireplumber-0.5.1-1 is up to date -- skipping
+warning: wlroots-0.17.2-1 is up to date -- skipping
+warning: xorg-xwayland-23.2.6-1 is up to date -- skipping
+warning: wayland-protocols-1.34-1 is up to date -- skipping
+warning: sway-1:1.9-3 is up to date -- skipping
+warning: swaybg-1.2.0-1 is up to date -- skipping
+warning: swayidle-1.8.0-1 is up to date -- skipping
+warning: swaylock-1.7.2-1 is up to date -- skipping
+warning: grim-1.4.1-1 is up to date -- skipping
+warning: slurp-1.5.0-1 is up to date -- skipping
+warning: wofi-1.4.1-1 is up to date -- skipping
+warning: brightnessctl-0.5.1-2 is up to date -- skipping
+warning: foot-1.17.0-1 is up to date -- skipping
+warning: wl-clipboard-1:2.2.1-1 is up to date -- skipping
+warning: mako-1.8.0-1 is up to date -- skipping
+warning: imv-4.5.0-1 is up to date -- skipping
+resolving dependencies...
+looking for conflicting packages...
+:: pipewire-jack-1:1.0.4-4 and jack2-1.9.22-1 are in conflict (jack). Remove jack2? [y/N] 
+:: pipewire-jack-1:1.0.4-4 and jack2-1.9.22-1 are in conflict
+error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+ -> iwgtk-0.9-1 is up to date -- skipping
+ -> yambar-1.10.0-1 is up to date -- skipping
+AUR Explicit (2): overskride-0.5.7-1, wdisplays-1.1.1-1
+:: [1mPKGBUILD up to date, skipping download: overskride[0m
+:: [1mPKGBUILD up to date, skipping download: wdisplays[0m
+  2 overskride                               (Build Files Exist)
+  1 wdisplays                                (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  2 wdisplays                                (Build Files Exist)
+  1 overskride                               (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: overskride 0.5.7-1 (Wed 10 Apr 2024 09:16:31 AM MDT)
+==> Retrieving sources...
+  -> Updating overskride git repo...
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    overskride ... Skipped
+==> Making package: wdisplays 1.1.1-1 (Wed 10 Apr 2024 09:16:33 AM MDT)
+==> Retrieving sources...
+  -> Found wdisplays-1.1.1.tar.gz
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha512sums...
+    wdisplays-1.1.1.tar.gz ... Passed
+==> Validating source files with b2sums...
+    wdisplays-1.1.1.tar.gz ... Passed
+:: [1m(1/2) Parsing SRCINFO: overskride[0m
+:: [1m(2/2) Parsing SRCINFO: wdisplays[0m
+==> Making package: overskride 0.5.7-1 (Wed 10 Apr 2024 09:16:36 AM MDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Updating overskride git repo...
+==> Validating source files with sha256sums...
+    overskride ... Skipped
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Creating working copy of overskride git repo...
+Cloning into 'overskride'...
+done.
+Switched to a new branch 'makepkg'
+==> Starting prepare()...
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded gettext-rs v0.7.0
+  Downloaded temp-dir v0.1.12
+  Downloaded lazy_static v1.4.0
+  Downloaded cfg-if v1.0.0
+  Downloaded memoffset v0.9.0
+  Downloaded phf_macros v0.11.2
+  Downloaded quote v1.0.35
+  Downloaded strum v0.25.0
+  Downloaded siphasher v0.3.11
+  Downloaded phf_generator v0.11.2
+  Downloaded futures-sink v0.3.30
+  Downloaded num_cpus v1.16.0
+  Downloaded tokio-stream v0.1.14
+  Downloaded hex v0.4.3
+  Downloaded rand_core v0.6.4
+  Downloaded thiserror-impl v1.0.56
+  Downloaded thiserror v1.0.56
+  Downloaded unicode-xid v0.2.4
+  Downloaded locale_config v0.3.0
+  Downloaded pkg-config v0.3.29
+  Downloaded strum_macros v0.25.3
+  Downloaded macaddr v1.0.1
+  Downloaded displaydoc v0.2.4
+  Downloaded log v0.4.20
+  Downloaded dbus-crossroads v0.5.2
+  Downloaded libpulse-sys v1.21.0
+  Downloaded libadwaita-sys v0.5.3
+  Downloaded futures-executor v0.3.30
+  Downloaded semver v1.0.21
+  Downloaded socket2 v0.5.5
+  Downloaded pin-project-internal v1.1.4
+  Downloaded futures v0.3.30
+  Downloaded cairo-rs v0.18.5
+  Downloaded ryu v1.0.16
+  Downloaded gdk4-sys v0.7.2
+  Downloaded cc v1.0.83
+  Downloaded gio-sys v0.18.1
+  Downloaded libadwaita v0.5.3
+  Downloaded pin-project v1.1.4
+  Downloaded custom_debug_derive v0.5.1
+  Downloaded hashbrown v0.14.3
+  Downloaded winnow v0.5.39
+  Downloaded custom_debug v0.5.1
+  Downloaded gio v0.18.4
+  Downloaded aho-corasick v1.1.2
+  Downloaded syn v1.0.109
+  Downloaded serde_json v1.0.113
+  Downloaded glib v0.18.5
+  Downloaded syn v2.0.48
+  Downloaded bluer v0.16.1
+  Downloaded futures-util v0.3.30
+  Downloaded toml_edit v0.19.15
+  Downloaded regex v1.10.3
+  Downloaded nix v0.27.1
+  Downloaded libpulse-binding v2.28.1
+  Downloaded tokio-util v0.7.10
+  Downloaded dbus v0.9.7
+  Downloaded gdk4 v0.7.3
+  Downloaded regex-syntax v0.8.2
+  Downloaded gtk4 v0.7.3
+  Downloaded gtk4-sys v0.7.3
+  Downloaded toml_edit v0.20.2
+  Downloaded glib-sys v0.18.1
+  Downloaded cfg-expr v0.15.7
+  Downloaded indexmap v2.2.2
+  Downloaded memchr v2.7.1
+  Downloaded rand v0.8.5
+  Downloaded mio v0.8.10
+  Downloaded gsk4 v0.7.3
+  Downloaded anyhow v1.0.79
+  Downloaded regex-automata v0.4.5
+  Downloaded libc v0.2.153
+  Downloaded tokio v1.36.0
+  Downloaded bitflags v2.4.2
+  Downloaded toml v0.8.2
+  Downloaded glib-macros v0.18.5
+  Downloaded futures-channel v0.3.30
+  Downloaded proc-macro-error v1.0.4
+  Downloaded futures-task v0.3.30
+  Downloaded once_cell v1.19.0
+  Downloaded pango v0.18.3
+  Downloaded parking_lot v0.12.1
+  Downloaded pin-project-lite v0.2.13
+  Downloaded bytes v1.5.0
+  Downloaded field-offset v0.3.6
+  Downloaded gdk-pixbuf v0.18.5
+  Downloaded graphene-rs v0.18.1
+  Downloaded cairo-sys-rs v0.18.2
+  Downloaded rustc_version v0.4.0
+  Downloaded proc-macro-crate v1.3.1
+  Downloaded gdk-pixbuf-sys v0.18.0
+  Downloaded gsk4-sys v0.7.3
+  Downloaded proc-macro-error-attr v1.0.4
+  Downloaded gobject-sys v0.18.0
+  Downloaded scopeguard v1.2.0
+  Downloaded gtk4-macros v0.7.2
+  Downloaded slab v0.4.9
+  Downloaded proc-macro-crate v2.0.2
+  Downloaded version_check v0.9.4
+  Downloaded serde_spanned v0.6.5
+  Downloaded serde v1.0.196
+  Downloaded itoa v1.0.10
+  Downloaded rustversion v1.0.14
+  Downloaded futures-macro v0.3.30
+  Downloaded target-lexicon v0.12.13
+  Downloaded pango-sys v0.18.0
+  Downloaded num-traits v0.2.18
+  Downloaded autocfg v1.1.0
+  Downloaded parking_lot_core v0.9.9
+  Downloaded lock_api v0.4.11
+  Downloaded smallvec v1.13.1
+  Downloaded synstructure v0.12.6
+  Downloaded dbus-tokio v0.7.6
+  Downloaded num-derive v0.4.2
+  Downloaded futures-io v0.3.30
+  Downloaded system-deps v6.2.0
+  Downloaded version-compare v0.1.1
+  Downloaded graphene-sys v0.18.1
+  Downloaded heck v0.4.1
+  Downloaded toml_datetime v0.6.3
+  Downloaded bitflags v1.3.2
+  Downloaded num-derive v0.3.3
+  Downloaded libdbus-sys v0.2.5
+  Downloaded futures-core v0.3.30
+  Downloaded unicode-ident v1.0.12
+  Downloaded serde_derive v1.0.196
+  Downloaded uuid v1.7.0
+  Downloaded pin-utils v0.1.0
+  Downloaded proc-macro2 v1.0.78
+  Downloaded signal-hook-registry v1.4.1
+  Downloaded tokio-macros v2.2.0
+  Downloaded phf v0.11.2
+  Downloaded equivalent v1.0.1
+  Downloaded phf_shared v0.11.2
+  Downloaded getrandom v0.2.12
+  Downloaded gettext-sys v0.21.3
+==> Sources are ready.
+==> Making package: overskride 0.5.7-1 (Wed 10 Apr 2024 09:16:45 AM MDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Starting build()...
++ exec meson setup --prefix /usr --libexecdir lib --sbindir bin --buildtype plain --auto-features enabled --wrap-mode nodownload -D b_pie=true -D python.bytecompile=1 overskride build
+The Meson build system
+Version: 1.4.0
+Source dir: /home/jake/.cache/yay/overskride/src/overskride
+Build dir: /home/jake/.cache/yay/overskride/src/build
+Build type: native build
+overskride/meson.build:1: WARNING: Keyword argument "default_options" defined multiple times.
+WARNING: This will be an error in future Meson releases.
+Project name: overskride
+Project version: 0.5.7
+Rust compiler for the host machine: rustc -C linker=cc (rustc 1.77.1)
+Rust linker for the host machine: rustc -C linker=cc ld.mold 2.30.0
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Program msgfmt found: YES (/usr/bin/msgfmt)
+Program desktop-file-validate found: YES (/usr/bin/desktop-file-validate)
+Program appstream-util found: YES (/usr/bin/appstream-util)
+Program glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program blueprint-compiler found: YES (/usr/bin/blueprint-compiler)
+Found pkg-config: YES (/usr/bin/pkg-config) 2.1.1
+Build-time dependency gio-2.0 found: YES 2.80.0
+Program /usr/bin/glib-compile-resources found: YES (/usr/bin/glib-compile-resources)
+Configuring config.rs using configuration
+Program cargo found: YES (/usr/bin/cargo)
+Program msginit found: YES (/usr/bin/msginit)
+Program msgmerge found: YES (/usr/bin/msgmerge)
+Program xgettext found: YES (/usr/bin/xgettext)
+Dependency gio-2.0 found: YES 2.80.0 (cached)
+Program /usr/bin/glib-compile-schemas found: YES (/usr/bin/glib-compile-schemas)
+Program gtk4-update-icon-cache found: YES (/usr/bin/gtk4-update-icon-cache)
+Program update-desktop-database found: YES (/usr/bin/update-desktop-database)
+Build targets in project: 8
+
+overskride 0.5.7
+
+  User defined options
+    auto_features     : enabled
+    buildtype         : plain
+    libexecdir        : lib
+    prefix            : /usr
+    sbindir           : bin
+    wrap_mode         : nodownload
+    python.bytecompile: 1
+    b_pie             : true
+
+Found ninja-1.11.1 at /usr/bin/ninja
+Generating targets:   0%|          | 0/8 eta ?                                              Writing build.ninja:   0%|          | 0/36 eta ?                                                ninja: Entering directory `/home/jake/.cache/yay/overskride/src/build'
+[0/5] Generating src/cargo-build with a custom command
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded cfg-if v1.0.0
+  Downloaded custom_debug_derive v0.5.1
+  Downloaded equivalent v1.0.1
+  Downloaded cairo-sys-rs v0.18.2
+  Downloaded bitflags v1.3.2
+  Downloaded serde_spanned v0.6.5
+  Downloaded displaydoc v0.2.4
+  Downloaded field-offset v0.3.6
+  Downloaded serde_derive v1.0.196
+  Downloaded temp-dir v0.1.12
+  Downloaded heck v0.4.1
+  Downloaded futures-macro v0.3.30
+  Downloaded cc v1.0.83
+  Downloaded cairo-rs v0.18.5
+  Downloaded locale_config v0.3.0
+  Downloaded gdk-pixbuf-sys v0.18.0
+  Downloaded macaddr v1.0.1
+  Downloaded strum v0.25.0
+  Downloaded tokio-macros v2.2.0
+  Downloaded pin-utils v0.1.0
+  Downloaded rustversion v1.0.14
+  Downloaded scopeguard v1.2.0
+  Downloaded slab v0.4.9
+  Downloaded gdk-pixbuf v0.18.5
+  Downloaded strum_macros v0.25.3
+  Downloaded rustc_version v0.4.0
+  Downloaded pin-project-lite v0.2.13
+  Downloaded version_check v0.9.4
+  Downloaded glib-macros v0.18.5
+  Downloaded thiserror v1.0.56
+  Downloaded thiserror-impl v1.0.56
+  Downloaded pin-project v1.1.4
+  Downloaded version-compare v0.1.1
+  Downloaded system-deps v6.2.0
+  Downloaded target-lexicon v0.12.13
+  Downloaded tokio-stream v0.1.14
+  Downloaded libpulse-binding v2.28.1
+  Downloaded hashbrown v0.14.3
+  Downloaded socket2 v0.5.5
+  Downloaded gio v0.18.4
+  Downloaded uuid v1.7.0
+  Downloaded ryu v1.0.16
+  Downloaded regex v1.10.3
+  Downloaded glib v0.18.5
+  Downloaded nix v0.27.1
+  Downloaded toml_edit v0.20.2
+  Downloaded tokio-util v0.7.10
+  Downloaded regex-syntax v0.8.2
+  Downloaded winnow v0.5.39
+  Downloaded serde_json v1.0.113
+  Downloaded serde v1.0.196
+  Downloaded toml_edit v0.19.15
+  Downloaded syn v2.0.48
+  Downloaded syn v1.0.109
+  Downloaded unicode-ident v1.0.12
+  Downloaded toml v0.8.2
+  Downloaded gtk4 v0.7.3
+  Downloaded semver v1.0.21
+  Downloaded futures-util v0.3.30
+  Downloaded aho-corasick v1.1.2
+  Downloaded smallvec v1.13.1
+  Downloaded regex-automata v0.4.5
+  Downloaded mio v0.8.10
+  Downloaded memchr v2.7.1
+  Downloaded libadwaita v0.5.3
+  Downloaded indexmap v2.2.2
+  Downloaded bluer v0.16.1
+  Downloaded gtk4-sys v0.7.3
+  Downloaded libc v0.2.153
+  Downloaded gdk4-sys v0.7.2
+  Downloaded gdk4 v0.7.3
+  Downloaded unicode-xid v0.2.4
+  Downloaded toml_datetime v0.6.3
+  Downloaded rand v0.8.5
+  Downloaded gio-sys v0.18.1
+  Downloaded glib-sys v0.18.1
+  Downloaded quote v1.0.35
+  Downloaded proc-macro2 v1.0.78
+  Downloaded parking_lot v0.12.1
+  Downloaded pango v0.18.3
+  Downloaded signal-hook-registry v1.4.1
+  Downloaded proc-macro-error v1.0.4
+  Downloaded phf v0.11.2
+  Downloaded tokio v1.36.0
+  Downloaded parking_lot_core v0.9.9
+  Downloaded pango-sys v0.18.0
+  Downloaded once_cell v1.19.0
+  Downloaded num-traits v0.2.18
+  Downloaded num-derive v0.3.3
+  Downloaded log v0.4.20
+  Downloaded lock_api v0.4.11
+  Downloaded libadwaita-sys v0.5.3
+  Downloaded gtk4-macros v0.7.2
+  Downloaded pin-project-internal v1.1.4
+  Downloaded rand_core v0.6.4
+  Downloaded num_cpus v1.16.0
+  Downloaded num-derive v0.4.2
+  Downloaded memoffset v0.9.0
+  Downloaded getrandom v0.2.12
+  Downloaded futures-task v0.3.30
+  Downloaded futures-sink v0.3.30
+  Downloaded siphasher v0.3.11
+  Downloaded libpulse-sys v1.21.0
+  Downloaded gsk4 v0.7.3
+  Downloaded gobject-sys v0.18.0
+  Downloaded dbus v0.9.7
+  Downloaded futures-io v0.3.30
+  Downloaded lazy_static v1.4.0
+  Downloaded libdbus-sys v0.2.5
+  Downloaded proc-macro-error-attr v1.0.4
+  Downloaded pkg-config v0.3.29
+  Downloaded gsk4-sys v0.7.3
+  Downloaded graphene-sys v0.18.1
+  Downloaded proc-macro-crate v2.0.2
+  Downloaded gettext-rs v0.7.0
+  Downloaded futures-core v0.3.30
+  Downloaded phf_shared v0.11.2
+  Downloaded proc-macro-crate v1.3.1
+  Downloaded phf_generator v0.11.2
+  Downloaded hex v0.4.3
+  Downloaded futures-executor v0.3.30
+  Downloaded itoa v1.0.10
+  Downloaded graphene-rs v0.18.1
+  Downloaded dbus-crossroads v0.5.2
+  Downloaded cfg-expr v0.15.7
+  Downloaded synstructure v0.12.6
+  Downloaded futures v0.3.30
+  Downloaded custom_debug v0.5.1
+  Downloaded phf_macros v0.11.2
+  Downloaded futures-channel v0.3.30
+  Downloaded dbus-tokio v0.7.6
+  Downloaded autocfg v1.1.0
+  Downloaded anyhow v1.0.79
+  Downloaded bytes v1.5.0
+  Downloaded bitflags v2.4.2
+  Downloaded gettext-sys v0.21.3
+   Compiling proc-macro2 v1.0.78
+   Compiling unicode-ident v1.0.12
+   Compiling serde v1.0.196
+   Compiling pkg-config v0.3.29
+   Compiling hashbrown v0.14.3
+   Compiling equivalent v1.0.1
+   Compiling winnow v0.5.39
+   Compiling heck v0.4.1
+   Compiling target-lexicon v0.12.13
+   Compiling smallvec v1.13.1
+   Compiling version-compare v0.1.1
+   Compiling libc v0.2.153
+   Compiling autocfg v1.1.0
+   Compiling memchr v2.7.1
+   Compiling syn v1.0.109
+   Compiling futures-core v0.3.30
+   Compiling pin-project-lite v0.2.13
+   Compiling futures-sink v0.3.30
+   Compiling version_check v0.9.4
+   Compiling futures-channel v0.3.30
+   Compiling futures-task v0.3.30
+   Compiling futures-io v0.3.30
+   Compiling pin-utils v0.1.0
+   Compiling thiserror v1.0.56
+   Compiling once_cell v1.19.0
+   Compiling bitflags v2.4.2
+   Compiling cfg-if v1.0.0
+   Compiling parking_lot_core v0.9.9
+   Compiling semver v1.0.21
+   Compiling gio v0.18.4
+   Compiling scopeguard v1.2.0
+   Compiling bytes v1.5.0
+   Compiling siphasher v0.3.11
+   Compiling rustversion v1.0.14
+   Compiling anyhow v1.0.79
+   Compiling serde_json v1.0.113
+   Compiling slab v0.4.9
+   Compiling indexmap v2.2.2
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling proc-macro-error v1.0.4
+   Compiling lock_api v0.4.11
+   Compiling quote v1.0.35
+   Compiling cfg-expr v0.15.7
+   Compiling rustc_version v0.4.0
+   Compiling memoffset v0.9.0
+   Compiling syn v2.0.48
+   Compiling num-traits v0.2.18
+   Compiling aho-corasick v1.1.2
+   Compiling regex-syntax v0.8.2
+   Compiling itoa v1.0.10
+   Compiling rand_core v0.6.4
+   Compiling temp-dir v0.1.12
+   Compiling libdbus-sys v0.2.5
+   Compiling unicode-xid v0.2.4
+   Compiling ryu v1.0.16
+   Compiling rand v0.8.5
+   Compiling libpulse-sys v1.21.0
+   Compiling field-offset v0.3.6
+   Compiling cc v1.0.83
+   Compiling phf_shared v0.11.2
+   Compiling lazy_static v1.4.0
+   Compiling hex v0.4.3
+   Compiling bitflags v1.3.2
+   Compiling log v0.4.20
+   Compiling macaddr v1.0.1
+   Compiling socket2 v0.5.5
+   Compiling num_cpus v1.16.0
+   Compiling mio v0.8.10
+   Compiling signal-hook-registry v1.4.1
+   Compiling parking_lot v0.12.1
+   Compiling phf_generator v0.11.2
+   Compiling getrandom v0.2.12
+   Compiling nix v0.27.1
+   Compiling gettext-sys v0.21.3
+   Compiling regex-automata v0.4.5
+   Compiling synstructure v0.12.6
+   Compiling regex v1.10.3
+   Compiling locale_config v0.3.0
+   Compiling serde_derive v1.0.196
+   Compiling futures-macro v0.3.30
+   Compiling thiserror-impl v1.0.56
+   Compiling tokio-macros v2.2.0
+   Compiling pin-project-internal v1.1.4
+   Compiling strum_macros v0.25.3
+   Compiling phf_macros v0.11.2
+   Compiling num-derive v0.4.2
+   Compiling displaydoc v0.2.4
+   Compiling custom_debug_derive v0.5.1
+   Compiling num-derive v0.3.3
+   Compiling gettext-rs v0.7.0
+   Compiling custom_debug v0.5.1
+   Compiling tokio v1.36.0
+   Compiling phf v0.11.2
+   Compiling futures-util v0.3.30
+   Compiling libpulse-binding v2.28.1
+   Compiling pin-project v1.1.4
+   Compiling strum v0.25.0
+   Compiling futures-executor v0.3.30
+   Compiling dbus v0.9.7
+   Compiling futures v0.3.30
+   Compiling tokio-stream v0.1.14
+   Compiling tokio-util v0.7.10
+   Compiling toml_datetime v0.6.3
+   Compiling serde_spanned v0.6.5
+   Compiling uuid v1.7.0
+   Compiling toml_edit v0.20.2
+   Compiling toml_edit v0.19.15
+   Compiling dbus-tokio v0.7.6
+   Compiling dbus-crossroads v0.5.2
+   Compiling bluer v0.16.1
+   Compiling proc-macro-crate v1.3.1
+   Compiling toml v0.8.2
+   Compiling proc-macro-crate v2.0.2
+   Compiling system-deps v6.2.0
+   Compiling gtk4-macros v0.7.2
+   Compiling glib-sys v0.18.1
+   Compiling gobject-sys v0.18.0
+   Compiling gio-sys v0.18.1
+   Compiling pango-sys v0.18.0
+   Compiling gdk-pixbuf-sys v0.18.0
+   Compiling cairo-sys-rs v0.18.2
+   Compiling glib-macros v0.18.5
+   Compiling gdk4-sys v0.7.2
+   Compiling graphene-sys v0.18.1
+   Compiling gsk4-sys v0.7.3
+   Compiling gtk4-sys v0.7.3
+   Compiling libadwaita-sys v0.5.3
+   Compiling glib v0.18.5
+   Compiling cairo-rs v0.18.5
+   Compiling graphene-rs v0.18.1
+   Compiling gdk-pixbuf v0.18.5
+   Compiling pango v0.18.3
+   Compiling gdk4 v0.7.3
+   Compiling gsk4 v0.7.3
+   Compiling gtk4 v0.7.3
+   Compiling libadwaita v0.5.3
+   Compiling overskride v0.5.7 (/home/jake/.cache/yay/overskride/src/overskride)
+warning: use of deprecated associated function `gtk4::glib::main_context_channel::<impl gtk4::glib::MainContext>::channel`: Use an async channel, from async-channel for example, on the main context using spawn_future_local() instead
+   --> src/window.rs:212:53
+    |
+212 |         let (sender, receiver) = glib::MainContext::channel::<Message>(glib::Priority::default());
+    |                                                     ^^^^^^^
+    |
+    = note: `#[warn(deprecated)]` on by default
+
+warning: creating a shared reference to mutable static is discouraged
+  --> src/bluetooth/battery.rs:27:54
+   |
+27 |     let proxy = conn.with_proxy("org.bluez", unsafe {&PATH}, std::time::Duration::from_millis(5000));
+   |                                                      ^^^^^ shared reference to mutable static
+   |
+   = note: for more information, see issue #114447 <https://github.com/rust-lang/rust/issues/114447>
+   = note: this will be a hard error in the 2024 edition
+   = note: this shared reference has lifetime `'static`, but if the static ever gets mutated, or a mutable reference is created, then any further use of this shared reference is Undefined Behavior
+   = note: `#[warn(static_mut_refs)]` on by default
+help: use `addr_of!` instead to create a raw pointer
+   |
+27 |     let proxy = conn.with_proxy("org.bluez", unsafe {addr_of!(PATH)}, std::time::Duration::from_millis(5000));
+   |                                                      ~~~~~~~~~~~~~~
+
+warning: creating a shared reference to mutable static is discouraged
+   --> src/obex/obex.rs:517:62
+    |
+517 |     let adapter = bluer::Session::new().await?.adapter(unsafe { &CURRENT_ADAPTER })?;
+    |                                                                 ^^^^^^^^^^^^^^^^ shared reference to mutable static
+    |
+    = note: for more information, see issue #114447 <https://github.com/rust-lang/rust/issues/114447>
+    = note: this will be a hard error in the 2024 edition
+    = note: this shared reference has lifetime `'static`, but if the static ever gets mutated, or a mutable reference is created, then any further use of this shared reference is Undefined Behavior
+help: use `addr_of!` instead to create a raw pointer
+    |
+517 |     let adapter = bluer::Session::new().await?.adapter(unsafe { addr_of!(CURRENT_ADAPTER) })?;
+    |                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+warning: `overskride` (bin "overskride") generated 3 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 55.45s
+[4/5] Generating src/overskride_gresource with a custom command
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: /usr/bin/ninja -C /home/jake/.cache/yay/overskride/src/build
+==> Starting check()...
+ninja: Entering directory `/home/jake/.cache/yay/overskride/src/build'
+ninja: no work to do.
+1/3 Validate desktop file   OK              0.02s
+2/3 Validate schema file    OK              0.00s
+3/3 Validate appstream file FAIL            0.89s   exit status 1
+>>> ASAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1 UBSAN_OPTIONS=halt_on_error=1:abort_on_error=1:print_summary=1:print_stacktrace=1 MALLOC_PERTURB_=242 /usr/bin/appstream-util validate data/io.github.kaii_lb.Overskride.appdata.xml
+――――――――――――――――――――――――――――――――――――― ✀  ―――――――――――――――――――――――――――――――――――――
+stdout:
+data/io.github.kaii_lb.Overskride.appdata.xml: FAILED:
+• attribute-invalid     : <screenshot> width too large [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/overskride.png] maximum is 1600px
+• attribute-invalid     : <screenshot> height too large [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/overskride.png] maximum is 900px
+• style-invalid         : <caption> requires sentence case [multi-window screenshot of app]
+• attribute-invalid     : <screenshot> width too large [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/center.png] maximum is 1600px
+• attribute-invalid     : <screenshot> height too large [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/center.png] maximum is 900px
+• style-invalid         : <image> has horizontal padding [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/center.png]
+• style-invalid         : <caption> requires sentence case [main screen of app]
+• attribute-invalid     : <screenshot> height too large [https://raw.githubusercontent.com/kaii-lb/overskride/main/assets/images/left.png] maximum is 900px
+• style-invalid         : <caption> requires sentence case [minimized form of connected device]
+• attribute-invalid     : <release> timestamp is in the future
+• tag-missing           : <url> is not present
+stderr:
+Validation of files failed
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+
+
+Summary of Failures:
+
+3/3 Validate appstream file FAIL            0.89s   exit status 1
+
+Ok:                 2   
+Expected Fail:      0   
+Fail:               1   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            0   
+
+Full log written to /home/jake/.cache/yay/overskride/src/build/meson-logs/testlog.txt
+==> Entering fakeroot environment...
+==> Starting package()...
+Installing data/io.github.kaii_lb.Overskride.desktop to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/applications
+Installing data/io.github.kaii_lb.Overskride.appdata.xml to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/appdata
+Installing src/overskride.gresource to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/overskride
+Installing src/overskride to /home/jake/.cache/yay/overskride/pkg/overskride/usr/bin
+Installing /home/jake/.cache/yay/overskride/src/overskride/data/io.github.kaii_lb.Overskride.gschema.xml to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/glib-2.0/schemas
+Installing /home/jake/.cache/yay/overskride/src/overskride/data/icons/hicolor/scalable/apps/io.github.kaii_lb.Overskride.svg to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/icons/hicolor/scalable/apps
+Installing /home/jake/.cache/yay/overskride/src/overskride/data/icons/hicolor/symbolic/apps/io.github.kaii_lb.Overskride-symbolic.svg to /home/jake/.cache/yay/overskride/pkg/overskride/usr/share/icons/hicolor/symbolic/apps
+Skipping custom install script because DESTDIR is set '/usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas'
+Skipping custom install script because DESTDIR is set '/usr/bin/gtk4-update-icon-cache -q -t -f /usr/share/icons/hicolor'
+Skipping custom install script because DESTDIR is set '/usr/bin/update-desktop-database -q /usr/share/applications'
+==> Tidying install...
+  -> Removing libtool files...
+  -> Purging unwanted files...
+  -> Removing static library files...
+  -> Stripping unneeded symbols from binaries and libraries...
+objcopy: ./usr/bin/overskride: debuglink section already exists
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> Creating package "overskride"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Creating package "overskride-debug"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: overskride 0.5.7-1 (Wed 10 Apr 2024 09:18:02 AM MDT)
+==> Cleaning up...
+==> Making package: wdisplays 1.1.1-1 (Wed 10 Apr 2024 09:18:06 AM MDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found wdisplays-1.1.1.tar.gz
+==> Validating source files with sha512sums...
+    wdisplays-1.1.1.tar.gz ... Passed
+==> Validating source files with b2sums...
+    wdisplays-1.1.1.tar.gz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting wdisplays-1.1.1.tar.gz with bsdtar
+==> Sources are ready.
+ -> wdisplays-1.1.1-1 already made -- skipping build
+==> Making package: wdisplays 1.1.1-1 (Wed 10 Apr 2024 09:18:09 AM MDT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (4) overskride-0.5.7-1  overskride-debug-0.5.7-1  wdisplays-1.1.1-1  wdisplays-debug-1.1.1-1
+
+Total Installed Size:  159.84 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing overskride...
+installing overskride-debug...
+installing wdisplays...
+installing wdisplays-debug...
+:: Running post-transaction hooks...
+(1/4) Arming ConditionNeedsUpdate...
+(2/4) Compiling GSettings XML schema files...
+(3/4) Updating icon theme caches...
+(4/4) Updating the desktop file MIME type cache...
+*********** Starting services ***********
+Sorry, user jake is not allowed to execute '/usr/bin/systemctl enable iwd --now' as root on JakesBytes.
+Sorry, user jake is not allowed to execute '/usr/bin/systemctl enable bluetooth --now' as root on JakesBytes.
+Sorry, user jake is not allowed to execute '/usr/bin/systemctl enable cups --now' as root on JakesBytes.
+*********** Setup is done, please log out and log in back again ( type exit ) ***********

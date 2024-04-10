@@ -25,7 +25,7 @@ check(){
 }
 
 log "Refreshing package db"
-sudo pacman -Sy
+sudo pacman -Syu
 check "$?" "pacman"
 
 
@@ -39,8 +39,8 @@ sudo pacman -S --noconfirm --needed git
 
 
 log "Installing needed official packages"
-sudo pacman -S --noconfirm --needed - < packages/packages.txt
-sudo yay -S --noconfirm --needed - < packages/packages_aur.txt
+sudo pacman -S --needed - < packages/packages.txt
+yay -S --needed - < packages/packages_aur.txt
 check "$?" "pacman"
 
 
@@ -76,7 +76,7 @@ sudo systemctl enable cups --now
 
 
 #log "Changing shell to zsh"
-#chsh -s /bin/zsh
+chsh -s /bin/zsh
 #check "$?" "chsh"
 
 

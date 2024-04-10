@@ -1,8 +1,4 @@
-sov
-mmfm
-vmp
-wcp
-wob
-wlogout
 wdisplays
 iwgtk
+overskride
+yambar
